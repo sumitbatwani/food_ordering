@@ -2,7 +2,7 @@
 
 ## Installation
 
-To get started with ArticleX, follow these simple steps:
+To get started, follow these simple steps:
 
 1. Clone the repository:
 

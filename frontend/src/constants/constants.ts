@@ -1,1 +1,1 @@
-export const AUTH_TOKEN = "articlex_auth_token";
+export const AUTH_TOKEN = "auth_token";
