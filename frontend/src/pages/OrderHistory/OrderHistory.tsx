@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import { useGetOrdersQuery } from "../../redux/services/orders";
 
 const OrderHistory = () => {
-  const { data: orders } = useGetOrdersQuery();
+  const { data: orders, refetch } = useGetOrdersQuery();
+  useEffect(() => {
+    refetch();
+  }, [refetch]);
   return (
     <div className="px-12">
       <div className="font-semibold text-xl">Orders History</div>
